@@ -8,3 +8,10 @@ while curr<=m:
         curr = curr + n
 
 print(times_fit)
+
+### algoritmo alternativo
+times_fit = 0
+while m>=n:
+        m-=n
+        times_fit +=1
+print(times_fit)
