@@ -1,13 +1,10 @@
 m = eval(input("Diga um num: "))
 n = eval(input("Diga um num: "))
-curr = 0
+curr = n
 
 times_fit = 0
-while True:
+while curr<=m:
+        times_fit +=1
         curr = curr + n
-        if (curr<=m):
-                times_fit +=1
-                continue
-        break
 
 print(times_fit)
