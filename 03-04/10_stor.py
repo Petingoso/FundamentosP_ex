@@ -9,7 +9,7 @@ while num > 0:
     dig = num % 10*i
 
     if (dig % 2 != 0):
-        num_impar = num_impar + dig*1*j
+        num_impar = num_impar + dig*j
         j*=10
 
     num //= 10
