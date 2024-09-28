@@ -8,3 +8,5 @@ def duplicar(q, j):
     while valor(q, j, c) < 2*q:
         c+=1
     return c
+
+print(duplicar(100, 0.03))

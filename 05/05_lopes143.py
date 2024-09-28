@@ -3,3 +3,7 @@ def bissexto(x):
         return True
     else:
         return False
+    
+print(bissexto(1984))
+print(bissexto(1985))
+print(bissexto(2000))

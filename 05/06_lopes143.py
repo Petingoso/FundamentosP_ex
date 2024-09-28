@@ -13,3 +13,7 @@ def dias_mes(mes, ano):
         return bissexto(ano)
     else:
         raise ValueError("Mes nao existe")
+    
+print(dias_mes('jan', 2017))
+print(dias_mes('fev', 2016))
+print(dias_mes('MAR', 2017))
