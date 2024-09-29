@@ -2,9 +2,9 @@ def posicoes_maximo(w):
     if len(w)<0:
         return ()
     
-    max=w[1]
+    max=w[0]
     r = ()
-    for i in w:
+    for i in range(len(w)):
         if w[i] == max: 
             r += (i,)
         elif w[i] > max: 
