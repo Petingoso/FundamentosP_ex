@@ -1,10 +1,11 @@
 def soma_cumulativa(w):
     i = 0
+    r = list(w)
     while i < len(w):
         for j in range(0,i):
-            w[i]+=w[j]
-    i+=1
-    return w
+            r[i]+=w[j]
+        i+=1
+    return r
 
-soma_cumulativa([1, 2, 3, 4, 5])
+print(soma_cumulativa([1, 2, 3, 4, 5]))
 
