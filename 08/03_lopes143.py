@@ -1,10 +1,10 @@
-def soma_cumulativa(list):
-    outputList = []
+def soma_cumulativa(lista):
+    outLista = []
     sum = 0
-    for i in list:
+    for i in lista:
         sum += i
-        outputList.append(sum)
+        outLista.append(sum)
 
-    return outputList
+    return outLista
 
 print(soma_cumulativa([1, 2, 3, 4, 5]))
