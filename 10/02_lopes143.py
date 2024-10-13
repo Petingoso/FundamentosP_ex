@@ -24,8 +24,6 @@ def rac_iguais(r1, r2):
     else:
         return num(r1)*den(r2)==num(r2)*den(r1)
     
-# a)
-
 def escreve_rac(r):
     if not eh_racional(r):
         raise ValueError
@@ -38,4 +36,18 @@ def produto_rac(r1, r2):
 
 #print(escreve_rac(produto_rac(cria_rac(1,3), cria_rac(3,4))))
 
-# b)
+#e)
+def cria_rac_tupl(n, d):
+    return (n,d)
+
+def num_tupl(r):
+    return r[0]
+
+def den_tupl(r):
+    return r[1]
+
+#eh_racional fica igual
+#eh_rac_zero fica igual
+#rac_iguais  fica igual
+#escreve_rac fica igual
+#produto_rac fica igual
